@@ -182,7 +182,7 @@ public class cv {
             cs.endText();
             cs.close();
 
-            doc.save("cv.pdf");
+            doc.save(fileName+".pdf");
             doc.close();
 
             System.out.println("PDF olusturuldu!");
